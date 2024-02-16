@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  cursor: none;
+  background-color: black;
+}
+
+#text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  white-space: nowrap;
+  font-family: "antiquarian-scribe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.male {
+  color: white;
+}
+
+.female {
+  color: #A91B0D;
+}
+
+.moviename{
+  color: grey;
+  display: flex;
+  font-family: "forma-djr-deck", sans-serif;
+  font-weight: 400;
+  font-style: normal;  align-content: flex-start;
+  justify-content: end;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #text-container {
+    font-size: 18px; 
+  }
+}
